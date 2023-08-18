@@ -153,7 +153,7 @@ h2 {
     text-align: center;
 }
 .feature .leftColumn .text,.feature .rightColumn .text{
-    padding: 80px 20px 20px 20px; 
+    padding: 80px 20px 20px 60px; 
     min-height:260px;
 }
 .feature .leftColumn .text a, .feature .rightColumn .text a{
@@ -183,6 +183,12 @@ h2 {
 }
 .featureImage img{
     width:500px;
+   
+}
+.featureImageCat img{
+    width:600px;
+    height: 500px;
+    object-fit: contain;
 }
 .feature .leftColumn .text a.emailLink,.feature .rightColumn .text a.emailLink{
     color:white;
@@ -206,22 +212,21 @@ h2 {
 .middleImage img{
     max-width: 1000px;
 }
-#scolltoTop{
+#scrolltoTop{
     display:none;
     opacity: .5;
     background-color: #F46036;
     padding:0 20px;
     color:white;
-    width: 26px;
+    width: 20px;
     font-size: 40px;
     line-height: 48px;
-    position: fixed;
+    position: fixed;    
     right:10px;
     bottom:10px;
-    border:1px solid white;
-    border-radius: 30px;
+    border-radius: 50px;
 }
-#scolltoTop:hover{
+#scrolltoTop:hover{
     opacity: 1;
     -webkit-transition: all 250ms ease-out;
     transition: all  250ms ease-out;
